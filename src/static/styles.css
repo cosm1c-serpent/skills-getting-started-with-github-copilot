@@ -120,6 +120,27 @@ button {
   background-color: #1a237e;
   color: white;
   border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.participant-list {
+  list-style-type: none; /* Hide bullet points */
+  padding: 0;
+}
+
+.delete-icon {
+  display: inline-block;
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+}
+  background-color: #1a237e;
+  color: white;
+  border: none;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
